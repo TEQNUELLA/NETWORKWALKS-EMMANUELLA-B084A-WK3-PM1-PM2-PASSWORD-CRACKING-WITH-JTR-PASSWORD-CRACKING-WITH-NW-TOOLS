@@ -80,21 +80,21 @@ Output confirmed the password:
 ## Evidence
 
 ### Screenshots
-![Johnny settings showing john.exe path](screenshots/pm1-01-johnny-settings.png)
+![Johnny settings showing john.exe path](screenshots/01-johnny-settings-john-path.png)
 
-![PDF hash extracted](screenshots/pm1-02-pdf-hash.png)
+![PDF hash extracted](screenshots/02-pdf-hash-extractor-output.png)
 
-![pm1-hash.txt in Notepad](screenshots/pm1-03-hash-notepad.png)
+![pm1-hash.txt in Notepad](screenshots/03-hash1-notepad.png)
 
-![Hash loaded into Johnny](screenshots/pm1-04-johnny-loaded.png)
+![Hash loaded into Johnny](screenshots/04-johnny-hash-loaded.png)
 
-![Johnny attack finished](screenshots/pm1-05-johnny-cracked.png)
+![Johnny attack finished](screenshots/05-johnny-attacked-cracked.png)
 
-![John CLI show password](screenshots/pm1-06-john-cli-show.png)
+![John CLI show password](screenshots/06-john-cli-show-password.png)
 
-![PDF password prompt](screenshots/pm1-07-pdf-prompt.png)
+![PDF password prompt](screenshots/07-pdf-password-prompt.png)
 
-![PDF opened with recovered password](screenshots/pm1-08-pdf-opened.png)
+![PDF opened with recovered password](screenshots/08-pdf-opened-flag.png)
 
 ## Conclusion
 John the Ripper Jumbo and Johnny successfully recovered the password of the locked lab PDF. The hash extracted from the PDF (`$pdf$...`) was loaded into Johnny and cracked; the CLI `john.exe --show` confirmed the result. The recovered password `good-luck` opened the PDF successfully.
