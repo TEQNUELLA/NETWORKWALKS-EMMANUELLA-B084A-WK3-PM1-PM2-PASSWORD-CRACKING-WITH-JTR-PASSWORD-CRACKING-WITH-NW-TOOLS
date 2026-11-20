@@ -85,7 +85,7 @@ Output confirmed the password:
 
 ![PDF hash extracted](screenshots/02-pdf-hash-extractor-output.png)
 
-![pm1-hash.txt in Notepad](screenshots/03-hash1-notepad.png)
+![hash.txt in Notepad](screenshots/03-hash1-notepad.png)
 
 ![Hash loaded into Johnny](screenshots/04-johnny-hash-loaded.png)
 
