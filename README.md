@@ -88,7 +88,7 @@ Output confirmed the password:
 
 ![Hash loaded into Johnny](screenshots/04-johnny-hash-loaded.png)
 
-![Johnny attack finished](screenshots/05-johnny-attacked-cracked.png)
+![Johnny attack finished](screenshots/05-johnny-attack-cracked.png)
 
 ![John CLI show password](screenshots/06-john-cli-show-password.png)
 
